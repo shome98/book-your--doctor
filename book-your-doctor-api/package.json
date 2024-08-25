@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "test server",
-    "startserver":"nodemon server.js"
+    "startserver":"nodemon --env-file=.env server.js"
   },
   "author": "SowparnaShome",
   "license": "ISC",
